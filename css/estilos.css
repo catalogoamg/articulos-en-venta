@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	padding: 15px;
+	margin: 15px auto;
+	text-align: center;
+	width: 80%;
+}
+
+header p{
+	font-size: 20px;
+}
+
+.container .carousel{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.container .card{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer{
+	padding: 10px 0;
+}
+
+footer .redes-sociales{
+	display: flex;
+	justify-content: center;
+}
+
+
+footer .redes-sociales .facebook, footer .redes-sociales .whatsapp{
+font-size: 40px;
+border-radius: 3px;
+margin: 0 20px;
+}
+
+footer .redes-sociales .numero{
+	font-size: 25px;
+	text-decoration: none;
+}
+
+footer .redes-sociales #numero{
+	display: none;
+}

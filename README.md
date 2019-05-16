@@ -1,1 +1,1 @@
-articulos-en-venta
+venta-articulos
