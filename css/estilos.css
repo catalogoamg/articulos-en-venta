@@ -7,7 +7,8 @@ header{
 	padding: 15px;
 	margin: 15px auto;
 	text-align: center;
-	width: 80%;
+	width: 70%;
+	margin: auto;
 }
 
 header p{
@@ -27,6 +28,10 @@ header p{
 
 footer{
 	padding: 10px 0;
+}
+
+footer .contactanos h3{
+text-align: center;
 }
 
 footer .redes-sociales{
@@ -49,3 +54,11 @@ footer .redes-sociales .numero{
 footer .redes-sociales #numero{
 	display: none;
 }
+
+@media screen and (max-width: 800px){
+	footer .sp a{
+		display: flex;
+		justify-content: center;
+	}
+}
+
