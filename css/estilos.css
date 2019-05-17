@@ -62,3 +62,9 @@ footer .redes-sociales #numero{
 	}
 }
 
+@media screen and (max-width: 600px){
+	header p{
+		font-size: 16px;
+	}
+}
+
