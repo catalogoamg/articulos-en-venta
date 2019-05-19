@@ -63,12 +63,19 @@ footer .redes-sociales .usuario, footer .redes-sociales .cuenta{
 	width: 100%;
 }
 
-@media screen and (max-width: 800px){
+footer .sp a{
+	padding: 5px;
+	margin: 10px;
+	}
+
+@media screen and (max-width: 750px){
 	footer .sp a{
 		display: flex;
 		justify-content: center;
+		width: 100%;
 	}
 }
+
 
 @media screen and (max-width: 600px){
 	header p{
