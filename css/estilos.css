@@ -40,19 +40,27 @@ footer .redes-sociales{
 }
 
 
-footer .redes-sociales .facebook, footer .redes-sociales .whatsapp{
+footer .redes-sociales .facebook{
 font-size: 40px;
 border-radius: 3px;
 margin: 0 20px;
+display: flex;
+justify-content: center;
 }
 
-footer .redes-sociales .numero{
-	font-size: 25px;
-	text-decoration: none;
+footer .redes-sociales .whatsapp{
+font-size: 40px;
+border-radius: 3px;
+margin: 0 20px;
+color: green;
+display: flex;
+justify-content: center;
 }
 
-footer .redes-sociales #numero{
-	display: none;
+footer .redes-sociales .usuario, footer .redes-sociales .cuenta{
+	padding: 5px;
+	margin: 10px;
+	width: 100%;
 }
 
 @media screen and (max-width: 800px){

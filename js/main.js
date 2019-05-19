@@ -18,24 +18,24 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$('.facebook').click(function(){
-		//e.preventDefault();
+	$('.facebook').click(function(e){
+		e.preventDefault();
 
-		//return false;
+		return false;
 	});
 
 	$('.whatsapp').click(function(e){
 		e.preventDefault();
-		$(this).hide();
-		$('#numero').show();
+		// $(this).hide();
+		// $('#numero').show();
 
 		return false;
 	});
 
 	$('#numero').click(function(e){
 		e.preventDefault();
-		$(this).hide();
-		$('.whatsapp').show();
+		// $(this).hide();
+		// $('.whatsapp').show();
 	});
 
 	$('.precio').click(function(e){
